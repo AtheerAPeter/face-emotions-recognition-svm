@@ -1,12 +1,6 @@
-import {
-  convertToGrayscaleAndSaveToCSV,
-  readCSV,
-  readCSVAndCreateImage,
-  saveImage,
-} from "@/utils/helpers";
+import { readCSV, saveImage } from "@/utils/helpers";
 import type { NextApiRequest, NextApiResponse } from "next";
 import { spawnSync } from "child_process";
-import fs from "fs";
 
 type Data = {
   prediction?: string;

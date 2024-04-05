@@ -20,7 +20,6 @@
     "clsx": "^2.1.0",
     "csv-parser": "^3.0.0",
     "framer-motion": "^11.0.3",
-    "jimp": "^0.22.10",
     "lucide-react": "^0.330.0",
     "next": "14.1.0",
     "react": "^18",
